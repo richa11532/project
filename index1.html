@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richa Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhaina 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('LOCL.jpg');
+        height: 4px;
+        weight: 4px;
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 90px;
+
+
+    }
+
+    .left div {
+        color: thistle;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        /* border: 2px solid white; */
+    }
+
+    .right {
+
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+
+        color: rgb(141, 214, 169);
+        text-decoration-color: rgb(236, 240, 233);
+        padding: 02px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: tomato;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaina 2', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: rgb(184, 90, 90);
+        padding: 4px 14px;
+        /* border: 2px solid gray;
+        border-radius: 20px; */
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(71, 71, 69);
+    }
+
+    .container {
+        /* border: 1px solid green; */
+        margin: 250px 60px;
+        padding: 10px;
+        width 3px;
+        /* border-radius: 2px; */
+        color: honeydew;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhaina 2', cursive;
+        text-align: center;
+        display: block;
+        width: 45%;
+        padding: 1px;
+        /* border: 2px solid black; */
+        margin: 3px auto;
+        font-size: 15px;
+        /* border-radius: 6px; */
+    }
+
+    .container h1 {
+        text-align: center;
+        color:rgb(77, 11, 11);
+    }
+
+    .container button {
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src=".\LOGO.jpg" alt="">
+            <div>Richa fitness</div>
+
+
+        </div>
+
+
+        <div class="mid">
+            <ul class="navbar">></a>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Aout us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">e-mail us</button>
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1>Join the best Gym of your city JABALPUR</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Locality">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div> 
+
+</body>
+
+</html>
+
+
+
